@@ -1,0 +1,17 @@
+{
+  "name": "edit-doctor",
+  "displayName": "Edit Doctor",
+  "version": "1.0.0",
+  "description": "When Claude Code's Edit fails with \"String to replace not found\" or finds several matches, tells Claude exactly what differs (tabs, trailing spaces, invisible characters, punctuation, changed text) and what text to use instead. Also suggests the file a failed Read or Edit probably meant.",
+  "author": {
+    "name": "Derek Denmark",
+    "url": "https://github.com/derekwden-droid"
+  },
+  "homepage": "https://github.com/derekwden-droid/edit-doctor",
+  "repository": "https://github.com/derekwden-droid/edit-doctor",
+  "license": "MIT",
+  "keywords": ["edit", "old_string", "whitespace", "tabs", "invisible-characters", "hooks", "developer-experience"],
+  "documentationUrl": "https://github.com/derekwden-droid/edit-doctor/blob/main/README.md",
+  "supportUrl": "https://github.com/derekwden-droid/edit-doctor/issues",
+  "privacyPolicyUrl": "https://github.com/derekwden-droid/edit-doctor/blob/main/PRIVACY.md"
+}

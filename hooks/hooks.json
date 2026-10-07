@@ -1,0 +1,12 @@
+{
+  "description": "After each batch of tool calls, explains any Edit whose old_string failed to match (whitespace, invisible characters, punctuation, changed text or duplicates) and suggests the file a failed Read or Edit probably meant.",
+  "hooks": {
+    "PostToolBatch": [
+      {
+        "hooks": [
+          { "type": "command", "command": "node", "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/edit-doctor.mjs"], "timeout": 30 }
+        ]
+      }
+    ]
+  }
+}
