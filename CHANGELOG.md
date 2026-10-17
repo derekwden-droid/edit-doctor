@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0 - 2026-10-17
+
+- PostToolUse hook on Edit: after a replace_all that changed more than one place, tells Claude
+  how many occurrences changed, on which lines, and which were inside a longer word (`foo` in
+  `foobar`). Claude Code itself only says "All occurrences were successfully replaced".
+
 ## 1.0.0 - 2026-10-07
 
 - PostToolBatch hook that explains Edit failures before Claude's next step.

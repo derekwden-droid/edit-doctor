@@ -1,8 +1,8 @@
 {
   "name": "edit-doctor",
   "displayName": "Edit Doctor",
-  "version": "1.0.0",
-  "description": "When Claude Code's Edit fails with \"String to replace not found\" or finds several matches, tells Claude exactly what differs (tabs, trailing spaces, invisible characters, punctuation, changed text) and what text to use instead. Also suggests the file a failed Read or Edit probably meant.",
+  "version": "1.1.0",
+  "description": "When Claude Code's Edit fails with \"String to replace not found\" or finds several matches, tells Claude exactly what differs (tabs, trailing spaces, invisible characters, punctuation, changed text) and what text to use instead. Also suggests the file a failed Read or Edit probably meant, and reports where a replace_all Edit changed text, including inside longer words.",
   "author": {
     "name": "Derek Denmark",
     "url": "https://github.com/derekwden-droid"
